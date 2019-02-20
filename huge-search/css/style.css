@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #EEF3FA;
+	}
+.main_search {
+	background-color: #F1F1F1;
+	margin-left: 200px;
+	margin-right:  200px;
+	line-height: 150px;
+}
+.button,
+.magnifier_button {
+
+    background-color: #F1F1F1;
+
+}

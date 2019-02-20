@@ -1,19 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+
+html, body {
+    height: 100%; }
 
 header{
 	color: rgb(235, 126, 127);
 	background-color: rgb(74, 79, 86);
 	text-align: center;
-    vertical-align: middle;
+    padding: 20px 0;
+    margin-bottom: 15px;
   }
+ form {
+    max-width: 50%;
+    margin: auto; }
+ div {
+    background-color: #3B3F45;
+    border: 20px solid white;
+    min-height: 100%; }
+
+ 
 li{
-	display: inline-block;
+	max-width: 100%;
+    margin: auto;
 	list-style: none;
 	line-height: 55px;
-	width: 600px;
 	background: rgb(136, 131, 158);
 	font-family: sans-serif;
 	font-size: 20px;
 	vertical-align: middle;
+	border: 3px solid transparent;
 	
  
 
@@ -26,45 +44,58 @@ li:hover {
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
 }
+
  	
 p {
 	display: inline-block;
 	font-size: 20px;
 	font-family: sans-serif;
-	margin-top: -10px;
+	margin-top: 10px;
    }
 
 body {
 	font-size: 100%;
-	background-color: black;
 	color: white; 
 }
+
 ul{
-	margin-left: 380px;
-    margin-top: 35px;
-    padding-left: 0px;
-   }
+	margin-top: 35px;
+ }
+
 input[type="checkbox"]:checked ~ *  {
     text-decoration: line-through;
     color: #a3a0b5;
 }
- 
+label {
+	min-height: 50px;
+	padding-left: 15px; 
+	display: block;
+	cursor: pointer;
+}
+.main_header > *:first-child {
+text-transform: capitalize; }
+.main_header > *:last-child {
+margin-bottom: 0; }
+
+label:active {
+background-color: #eb7e7f;
+}
+ 			
 i {
 	font-style: normal;
 	font-size: 12px;
 }
-
-.end{
-	display: inline-block;
-	color: rgb(235, 126, 127);
-	background-color: rgb(74, 79, 86);
-	font-family: sans-serif;
-	font-size: 25px;
-	line-height: 40px;
-	width: 600px;
-	margin-left: 380px;
-    margin-top: 30px;
-    text-align: center;
+.end {
+min-height: 50px;
+width: 100%;
+margin: auto;
+color: #eb7e7f;
+font-weight: bold;
+margin-top: 30px;
+font-size: 25px;
+background-color: #4A4F56;
+border: none;
+cursor: pointer; 
 }
 
 
