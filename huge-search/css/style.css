@@ -2,21 +2,31 @@
 	box-sizing: border-box;
 }
 
-html, body {
+html,body{
 	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-family: sans-serif;
 }
 body {
 	background-color: #EEF3FA;
+	margin: auto;
+	width: 50%;
 	}
 .main_search {
 	background-color: #F1F1F1;
-	margin-left: 200px;
-	margin-right:  200px;
-	line-height: 150px;
+	padding-top: 40px;
+	
 }
-.button,
-.magnifier_button {
+.button {
+	border: none;
+    display: inline-block;
+    background-color: #F1F1F1;
 
+}
+.magnifier_button {
+	border: none;
+    display: inline-block;
     background-color: #F1F1F1;
 
 }

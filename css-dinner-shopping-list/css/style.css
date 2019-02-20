@@ -31,21 +31,18 @@ li{
 	font-family: sans-serif;
 	font-size: 20px;
 	vertical-align: middle;
-	border: 3px solid transparent;
-	
- 
+	border: 2px solid transparent;
+}
 
-}
-li:nth-child(2n) {
-	background: rgb(122, 117, 147);
-}
+
 li:hover {
-	background: #625E77;
-	border-top: 3px solid white;
-	border-bottom: 3px solid white;
+	background-color: white;
+	border-left: none;
+    border-right: none;
 }
+li:nth-child(odd) label {
+background-color: #88839e; }
 
- 	
 p {
 	display: inline-block;
 	font-size: 20px;
@@ -66,21 +63,19 @@ input[type="checkbox"]:checked ~ *  {
     text-decoration: line-through;
     color: #a3a0b5;
 }
-label {
+.list_label {
 	min-height: 50px;
 	padding-left: 15px; 
 	display: block;
 	cursor: pointer;
+	background-color: #7a7593;
+	border-color: white;
 }
-.main_header > *:first-child {
-text-transform: capitalize; }
-.main_header > *:last-child {
-margin-bottom: 0; }
 
 label:active {
-background-color: #eb7e7f;
+background-color: #eb7e7f !important;
 }
- 			
+ 
 i {
 	font-style: normal;
 	font-size: 12px;
