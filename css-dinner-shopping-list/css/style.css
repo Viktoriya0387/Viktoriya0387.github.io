@@ -32,13 +32,14 @@ li{
 	font-size: 20px;
 	vertical-align: middle;
 	border: 2px solid transparent;
+	border-left: none;
+    border-right: none;
 }
 
 
 li:hover {
-	background-color: white;
-	border-left: none;
-    border-right: none;
+	border-color: white;
+	
 }
 li:nth-child(odd) label {
 background-color: #88839e; }
@@ -69,7 +70,7 @@ input[type="checkbox"]:checked ~ *  {
 	display: block;
 	cursor: pointer;
 	background-color: #7a7593;
-	border-color: white;
+	
 }
 
 label:active {
