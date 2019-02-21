@@ -9,7 +9,7 @@ html,body{
 	font-family: sans-serif;
 }
 body {
-	background-color: #EEF3FA;
+	background-color: #F1F1F1;
 	margin: auto;
 	width: 70%;
 	}
@@ -44,10 +44,9 @@ p {
     width: 100px;
 
 }
-.magnifier_button {
+.main_search {
 	border: none;
     display: inline-block;
-    background-color: #F1F1F1;
     height: 150px;
 
 }
