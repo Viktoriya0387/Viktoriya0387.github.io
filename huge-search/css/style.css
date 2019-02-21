@@ -11,22 +11,43 @@ html,body{
 body {
 	background-color: #EEF3FA;
 	margin: auto;
-	width: 50%;
+	width: 70%;
 	}
+
+a {
+	display: block;
+}
+ul > li	{
+display: inline-block;
+}
+p {
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.content {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
 .main_search {
 	background-color: #F1F1F1;
 	padding-top: 40px;
 	
 }
 .button {
-	border: none;
     display: inline-block;
-    background-color: #F1F1F1;
+    /*background-color: #F1F1F1;*/
+    height: 100px;
+    width: 100px;
 
 }
 .magnifier_button {
 	border: none;
     display: inline-block;
     background-color: #F1F1F1;
+    height: 150px;
 
 }
