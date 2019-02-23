@@ -9,44 +9,90 @@ html,body{
 	font-family: sans-serif;
 }
 body {
-	background-color: #F1F1F1;
+	background-color: #EEF3FA;
 	margin: auto;
 	width: 70%;
 	}
 
 a {
 	display: block;
+	list-style: none;
 }
-ul > li	{
-display: inline-block;
-}
+
 p {
 	font-family: Arial;
-	font-size: 20px;
-	margin-top: 20px;
+	font-size: 12px;
+	margin-bottom: 20px;
+	color: #C2C2C2;
+	font-weight: bold;
 }
-.content {
-	display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-}
-
 .main_search {
+	width: 100%;
+
 	background-color: #F1F1F1;
-	padding-top: 40px;
-	
+	padding-top: 20px;
+	min-height: 150px;
 }
-.button {
-    display: inline-block;
-    /*background-color: #F1F1F1;*/
-    height: 100px;
-    width: 100px;
 
+
+input[type=search] {
+	-webkit-appearance: none;
+	font-family: Arial;
+    font-size: 80px;
+	color: #C2C2C2;
+	font-weight: bold;
+	background-color: #F1F1F1;
+	border: none; 
+    display: inline-block;
+    outline: none;
 }
-.main_search {
+
+input[type=submit] {
+	background: url('../images/img/magnifier.svg');
+	cursor: pointer;
 	border: none;
+	height: 80px;
+    width: 80px;
     display: inline-block;
-    height: 150px;
+}
 
+
+img {
+	width: 30px;
+	height: 30px;
+}
+.circle {
+	border-radius: 50%;
+	background-position: left center;
+}
+.people_list, .popular_list, .recent_list {
+	display: inline-block;
+}
+
+
+
+.content {
+	background-color: #F1F1F1;
+	height: 100%;
+}
+
+li{
+	/*min-width: 250px;*/
+	min-width: 30%;
+    margin: auto;
+	line-height: 50px;
+	background: #EBEBED;
+	vertical-align: middle;
+	border: 2px solid #F1F1F1;
+	border-radius: 10px;
+ }
+span {
+	list-style: none;
+	color: #C2C2C2;
+	font-family: Arial;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.people_list {
+	background-position: left center;
 }
