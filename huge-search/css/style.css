@@ -36,7 +36,7 @@ p {
 
 
 input[type=search] {
-	-webkit-appearance: none;
+	/*-webkit-appearance: none;*/
 	font-family: Arial;
     font-size: 80px;
 	color: #C2C2C2;
@@ -63,7 +63,6 @@ img {
 }
 .circle {
 	border-radius: 50%;
-	background-position: left center;
 }
 .people_list, .popular_list, .recent_list {
 	display: inline-block;
