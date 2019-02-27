@@ -7,19 +7,20 @@
 html,
 body
 {
+    overflow-x: hidden; 
+
     width: 100%;
-    height: 100%;
 }
 
-.conteiner
+.container
 {
-    width: 800px;
-    height: 800px;
+    max-width: 804px;
+    min-height: 804px;
     margin: auto;
 
-    outline: 2px solid black;
+    border: 2px solid black;
 }
-.conteiner div
+.container div
 {
     float: left;
 
