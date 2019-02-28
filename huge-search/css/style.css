@@ -4,16 +4,19 @@
 
 html,body{
 	height: 100%;
-	width: 100%;
+	/*width: 100%;
 	font-size: 100%;
-	font-family: sans-serif;
+	font-family: sans-serif;*/
 }
 body {
 	background-color: #EEF3FA;
-	margin: auto;
-	width: 70%;
+	color: red;
+	
 	}
-
+ul > li > a {
+	display: block;
+	text-decoration: none;
+}
 a {
 	display: block;
 	list-style: none;
